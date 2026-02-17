@@ -1,0 +1,21 @@
+body {
+    background: #DDD9D3;
+}
+
+#login h1 a, .login h1 a {
+    background-image: url('../img/Crops-1.png');
+    background-size: contain;
+    width: 100%;
+}
+
+.wp-core-ui .button-primary {
+    background: #25221F;
+    border-color: #DDD9D3;
+    border-radius: 900px;
+}
+
+.login #backtoblog a, 
+.login #nav a,
+.privacy-policy-page-link a {
+    color: #6D7D67;
+}
