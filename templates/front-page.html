@@ -78,7 +78,7 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Valeurs"},"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|l","margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|xs","right":"var:preset|spacing|xs"}},"border":{"radius":{"topLeft":"150px","topRight":"150px"}}},"backgroundColor":"black","layout":{"type":"constrained","wideSize":"1400px"}} -->
+<!-- wp:group {"metadata":{"name":"Valeurs"},"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|xl","margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|xs","right":"var:preset|spacing|xs"}},"border":{"radius":{"topLeft":"150px","topRight":"150px"}}},"backgroundColor":"black","layout":{"type":"constrained","wideSize":"1400px"}} -->
 <div class="wp-block-group alignfull has-black-background-color has-background" style="border-top-left-radius:150px;border-top-right-radius:150px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xl);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xl);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
 <h2 class="wp-block-heading has-white-color has-text-color has-link-color">Pourquoi nous rejoindre ?</h2>
 <!-- /wp:heading -->
@@ -215,9 +215,23 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Activités"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"},"blockGap":"var:preset|spacing|l"}},"layout":{"type":"constrained","wideSize":"1400px"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:heading -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|l"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--l)"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading -->
 <h2 class="wp-block-heading">Nos activités</h2>
 <!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Découvrez ici tous les événements de l'association</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Voir tous les événements</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"categories":["cards"],"patternName":"activity","name":"Bloc d'activité"},"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|m","bottom":"var:preset|spacing|m"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"blockGap":"var:preset|spacing|xl"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--m);margin-bottom:var(--wp--preset--spacing--m);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":222,"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"layout":{"selfStretch":"fixed","flexSize":"50%"}}} -->
@@ -234,8 +248,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/ateliers/">Voir tous les ateliers</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/ateliers/">Voir tous les ateliers</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -252,8 +266,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/sorties/">Voir toutes les sorties</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/sorties/">Voir toutes les sorties</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -278,8 +292,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/concours/">Voir tous les concours</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/concours/">Voir tous les concours</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -296,8 +310,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/cours/">Voir tous les cours</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="http://ecv-cms.local/type-evenement/cours/">Voir tous les cours</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

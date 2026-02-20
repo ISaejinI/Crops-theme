@@ -228,7 +228,7 @@
             },
             "h2": {
                 "typography": {
-                    "fontSize": "var:preset|font-size|l",
+                    "fontSize": "var:preset|font-size|xl",
                     "lineHeight": "var:custom|line-height|l"
                 }
             },
