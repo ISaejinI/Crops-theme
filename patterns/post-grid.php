@@ -1,10 +1,19 @@
-<!-- wp:template-part {"slug":"header","theme":"crops","area":"header"} /-->
+<?php
+/**
+ * Title: Grille des articles
+ * Slug: posts-loop
+ * Description: La liste des articles du blog en grille
+ * Categories: posts
+ * Keywords: blog, posts, query, loop
+ * Viewport Width: 1200
+ * Block Types: core/query <-- ICI !
+ * Post Types: 
+ * Inserter: true
+ */
+?>
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|xl"},"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"}}},"layout":{"type":"constrained","wideSize":"1400px","contentSize":"1140px"}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--xl);padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide"} /-->
-
-<!-- wp:query {"queryId":10,"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"format":[]},"metadata":{"categories":[],"patternName":"core/block/249","name":"Grille des articles"},"align":"wide"} -->
-<div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"grid","columnCount":4,"minimumColumnWidth":null}} -->
+<!-- wp:query {"queryId":10,"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[],"format":[]},"align":"wide"} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"grid","columnCount":4}} -->
 <!-- wp:group {"style":{"border":{"radius":{"topLeft":"16px","topRight":"16px","bottomLeft":"16px","bottomRight":"16px"}},"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}},"dimensions":{"minHeight":"100%"}},"backgroundColor":"primary","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"top"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-top-left-radius:16px;border-top-right-radius:16px;border-bottom-left-radius:16px;border-bottom-right-radius:16px;min-height:100%;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:post-featured-image {"aspectRatio":"auto","width":"","height":"220px","style":{"border":{"radius":{"topLeft":"16px","topRight":"16px","bottomLeft":"16px","bottomRight":"16px"}},"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
@@ -37,7 +46,4 @@
 <p class="has-text-align-center">Aucun article pour le moment, repassez plus tard !</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
-<!-- /wp:query --></main>
-<!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"footer","theme":"crops","area":"footer"} /-->
+<!-- /wp:query -->
