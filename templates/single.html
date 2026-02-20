@@ -1,7 +1,7 @@
 <!-- wp:template-part {"slug":"header","theme":"crops","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"},"margin":{"top":"var:preset|spacing|xl","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:0;padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:post-title {"level":1} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"400px"},"margin":{"bottom":"0px"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-primary-background-color has-background" style="margin-bottom:0px;padding-top:var(--wp--preset--spacing--xl);padding-bottom:400px"><!-- wp:post-title {"level":1} /-->
 
 <!-- wp:post-terms {"term":"category"} /-->
 
@@ -9,19 +9,21 @@
 <div class="wp-block-group"><!-- wp:post-date {"datetime":"2026-02-18T09:08:55.712Z"} /-->
 
 <!-- wp:post-author-name /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:post-featured-image {"aspectRatio":"16/9","height":"","align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"right":"0","left":"0"}}}} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl"},"margin":{"top":"0px","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:0px;margin-bottom:0;padding-top:var(--wp--preset--spacing--xl);padding-bottom:var(--wp--preset--spacing--xl)"><!-- wp:post-featured-image {"aspectRatio":"16/9","height":"","align":"wide","style":{"spacing":{"margin":{"left":"0","right":"0","top":"-400px","bottom":"var:preset|spacing|l"}},"border":{"radius":{"topLeft":"16px","topRight":"16px","bottomLeft":"16px","bottomRight":"16px"}}}} /-->
 
-<!-- wp:post-content /-->
+<!-- wp:post-content {"style":{"spacing":{"blockGap":"var:preset|spacing|xs"}}} /-->
 
 <!-- wp:separator {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|xl","bottom":"0"}}}} -->
 <hr class="wp-block-separator alignwide has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--xl);margin-bottom:0"/>
 <!-- /wp:separator --></main>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Blog"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|xs","right":"var:preset|spacing|xs"},"blockGap":"var:preset|spacing|l","margin":{"top":"0","bottom":"var:preset|spacing|xl"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--xl);padding-top:var(--wp--preset--spacing--xl);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xl);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"metadata":{"name":"Blog"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xl","bottom":"var:preset|spacing|xl","left":"var:preset|spacing|xs","right":"var:preset|spacing|xs"},"blockGap":"var:preset|spacing|l","margin":{"bottom":"var:preset|spacing|xl"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-bottom:var(--wp--preset--spacing--xl);padding-top:var(--wp--preset--spacing--xl);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xl);padding-left:var(--wp--preset--spacing--xs)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"left","align":"wide"} -->
 <h2 class="wp-block-heading alignwide has-text-align-left">Ça pourrait vous intéresser</h2>

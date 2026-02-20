@@ -60,7 +60,7 @@
         },
         "spacing": {
             "blockGap": true,
-            "customSpacingSize": false,
+            "customSpacingSize": true,
             "defaultSpacingSizes": false,
             "margin": true,
             "padding": true,
